@@ -82,11 +82,11 @@ body {
 }
 
 main {
-  padding: 1.75rem 0 3.5rem;
+  padding: 1.5rem 0 3rem;
 }
 
 .section {
-  padding: 2.75rem 0;
+  padding: 2rem 0;
 }
 
 h2 {
@@ -145,13 +145,13 @@ p {
 .section .container {
   background-color: #ffffff;
   border-radius: 1rem;
-  padding: 1.75rem 1.5rem 1.9rem;
+  padding: 1.4rem 1.35rem 1.6rem;
   box-shadow: 0 18px 45px rgba(15, 23, 42, 0.08);
   border: 1px solid rgba(148, 163, 184, 0.25);
 }
 
 .section + .section .container {
-  margin-top: 1.5rem;
+  margin-top: 1rem;
 }
 
 .section .container p:last-child {
@@ -196,7 +196,7 @@ a:focus-visible {
 .conferences-block {
   display: flex;
   flex-wrap: wrap;
-  gap: 2rem;
+  gap: 1.4rem;
 }
 
 .conferences-column {
