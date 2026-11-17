@@ -227,7 +227,7 @@ a:focus-visible {
 }
 
 .conferences-list li + li {
-  margin-top: 0.4rem;
+  margin-top: 0.75rem;
 }
 
 .conference-name {
@@ -236,6 +236,15 @@ a:focus-visible {
 
 .conference-title {
   font-style: italic;
+}
+
+.conference-venues {
+  color: var(--muted);
+  font-size: 0.95rem;
+}
+
+.conference-venues .conference-name {
+  color: var(--text);
 }
 
 .conference-date {
