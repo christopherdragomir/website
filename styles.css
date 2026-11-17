@@ -181,10 +181,11 @@ a:focus-visible {
 
 .about-headshot {
   display: block;
-  max-width: 160px;
-  width: 100%;
-  height: auto;
-  border-radius: 999px;
+  width: 160px;
+  height: 160px;
+  aspect-ratio: 1;
+  object-fit: cover;
+  border-radius: 50%;
   border: 2px solid rgba(148, 163, 184, 0.6);
 }
 
@@ -243,9 +244,29 @@ a:focus-visible {
 }
 
 @media (max-width: 640px) {
+  /* Don't pin the header on phones: it would cover a fifth of the screen */
+  .site-header {
+    position: static;
+  }
+
   .header-inner {
     flex-direction: column;
     align-items: flex-start;
+    gap: 0.5rem;
+    padding: 0.9rem 1rem;
+  }
+
+  /* Keep cards off the screen edges */
+  .section {
+    padding: 0.75rem 1rem;
+  }
+
+  .section + .section .container {
+    margin-top: 0;
+  }
+
+  main {
+    padding: 0.75rem 0 2rem;
   }
 
   .site-nav {
