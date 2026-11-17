@@ -271,6 +271,12 @@ a:focus-visible {
   font-size: 0.95rem;
 }
 
+.course-desc {
+  color: var(--muted);
+  font-size: 0.95rem;
+  margin-top: 0.15rem;
+}
+
 .site-footer {
   border-top: 1px solid var(--border);
   background-color: var(--bg-alt);
